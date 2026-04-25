@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube [ homepage ]-Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/general.css" />
+    <link rel="stylesheet" href="/style/header.css" />
+    <link rel="stylesheet" href="/style/sidebar.css" />
+    <link rel="stylesheet" href="/style/filterbar.css" />
+    <link rel="stylesheet" href="/style/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left-part">
+        <div class="menu-box">
+          <img class="menu-icon" src="/Icons/menu.png" alt="menu-icon" />
+        </div>
+        <div class="youtube-logo-box">
+          <img
+            class="youtube-logo"
+            src="Icons/youtube -logo.png"
+            alt="youtube-logo"
+          />
+          Youtube
+        </div>
+      </div>
+
+      <div class="middle-part">
+        <input class="search-bar" type="search" placeholder="Search" />
+        <div class="search-icon-box">
+          <img class="search-icon" src="Icons/search.png" alt="search-icon" />
+        </div>
+
+        <div class="voice-search-box">
+          <img
+            class="voice-search"
+            src="Icons/icons8-microphone-100.png"
+            alt="voice-search-icon"
+          />
+        </div>
+      </div>
+
+      <div class="right-part">
+        <div class="create-box">
+          <img class="plus-icon" src="/Icons/plus.png" alt="plus-icon" />
+          Create
+        </div>
+        <div class="notification-bell">
+          <img
+            class="notification-bell"
+            src="/Icons/notification-bell.png"
+            alt="notification-bell-icon"
+          />
+        </div>
+        <div>
+          <img
+            class="account-profile-pic"
+            src="/Profile Pic/my-profile-pic.jpg"
+            alt="account-profile-pic"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="sidebar">
+      <div class="icon-box">
+        <img class="sidebar-icons" src="/Icons/home.png" />
+        <div class="sidebar-icon-name">Home</div>
+      </div>
+      <div class="icon-box">
+        <img class="sidebar-icons" src="/Icons/youtube-shorts-100.png" />
+        <div class="sidebar-icon-name">Shorts</div>
+      </div>
+      <div class="icon-box">
+        <img class="sidebar-icons" src="/Icons/subscription.png" />
+        <div class="sidebar-icon-name">Subscriptions</div>
+      </div>
+      <div class="icon-box">
+        <img class="sidebar-icons" src="/Icons/user.png" />
+        <div class="sidebar-icon-name">You</div>
+      </div>
+      <div class="icon-box">
+        <img class="sidebar-icons" src="/Icons/Download.png" />
+        <div class="sidebar-icon-name">Downloads</div>
+      </div>
+    </section>
+
+    <section class="filter-bar">
+      <div class="default-filter">All</div>
+      <div class="filters">CSS</div>
+      <div class="filters">Source code</div>
+      <div class="filters">Podcasts</div>
+      <div class="filters">Data type</div>
+      <div class="filters">System design</div>
+      <div class="filters">Machine learning</div>
+      <div class="filters">C++</div>
+      <div class="filters">Study Skills</div>
+      <div class="filters">Practice</div>
+      <div class="filters">Ideas</div>
+      <div class="filters">Live</div>
+      <div class="filters">Motivation</div>
+      <div class="filters">Animated Films</div>
+      <div class="filters">Recently uploaded</div>
+      <div class="filters">Watched</div>
+      <div class="filters">New to you</div>
+    </section>
+
+    <main>
+      <section class="video-cards-container">
+        <div class="video-cards">
+          <div class="thumbnail-box">
+            <a
+              class="video-link"
+              href="https://www.youtube.com/watch?v=GwT6gGMRr9s&t=34s"
+            >
+              <img
+                class="thumbnail"
+                src="thumbnails/thumbnail1.jpg"
+                alt="thumbnail"
+              />
+            </a>
+            <div class="video-length">5:16</div>
+          </div>
+
+          <div class="details">
+            <div>
+              <a
+                class="creator-ptofile-link"
+                href="https://www.youtube.com/@FryingPan"
+              >
+                <img
+                  class="creator-profile"
+                  src="/Profile Pic/Frying Pan Profile Pic.jpg"
+                  alt="frying-pan"
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-link"
+                href="https://www.youtube.com/watch?v=GwT6gGMRr9s&t=34s"
+              >
+                <p class="title">
+                  1 Year of Coding in 5 minutes ( Computer Science First
+                  Year )
+                </p>
+              </a>
+              <div class="account-name-container">
+                <a
+                  class="creator-ptofile-link"
+                  href="https://www.youtube.com/@FryingPan"
+                >
+                  <p class="account-name">Frying Pan</p>
+                </a>
+                <div class="verified-icon-box">
+                  <img
+                    class="verified-icon"
+                    src="/Icons/verified.png"
+                    alt="verified-icon"
+                  />
+                </div>
+              </div>
+              <p class="other-details">4.8M views . 4 years ago</p>
+            </div>
+            <div class="more-option-icon-box">
+              <img
+                class="more-option-icon"
+                src="/Icons/dots.png"
+                alt="dots-icon"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="video-cards">
+          <div class="thumbnail-box">
+            <a
+              class="video-link"
+              href="https://www.youtube.com/watch?v=_SYMq7fw55I&t=1s"
+            >
+              <img class="thumbnail" src="/thumbnails/thumbnail2.jpg" alt="thumbnail" />
+            </a>
+            <div class="video-length">4:10</div>
+          </div>
+
+          <div class="details">
+            <div>
+              <a
+                class="creator-profile-link"
+                href="https://www.youtube.com/@sleepycharliee"
+              >
+                <img
+                  class="creator-profile"
+                  src="/Profile Pic/Sleepy Charlie Profile Pic.jpg"
+                  alt="sleepy-charlie"
+                />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <a
+                class="video-link"
+                href="https://www.youtube.com/watch?v=_SYMq7fw55I&t=1s"
+              >
+                <p class="title">That's all you got ?</p>
+              </a>
+
+              <div class="account-name-container">
+                <a
+                  class="creator-profile-link"
+                  href="https://www.youtube.com/@sleepycharliee"
+                >
+                  <p class="account-name">Sleepy Charlie</p>
+                </a>
+
+                <div class="verified-icon-box">
+                  <img
+                    class="verified-icon"
+                    src="/Icons/verified.png"
+                    alt="verified-icon"
+                  />
+                </div>
+              </div>
+
+              <p class="other-details">967k views . 1 year ago</p>
+            </div>
+
+            <div class="more-option-icon-box">
+              <img
+                class="more-option-icon"
+                src="/Icons/dots.png"
+                alt="more-option-icon"
+              />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="video-cards">
+          <div class="thumbnail-box">
+            <a class="video-link" href="https://www.youtube.com/watch?v=B1NxV8Z0Fag">
+              <img class="thumbnail" src="/thumbnails/thumbnail3.jpg" alt="thumbnail" />
+            </a>
+            <div class="video-length">50:09</div>
+          </div>
+
+          <div class="details">
+            <div>
+              <a class="creator-profile-link" href=" https://www.youtube.com/@SuperSimpleDev">
+                <img class="creator-profile" src="/Profile Pic/SuperSimpleDev Profile Pic.jpg" alt="SuperSimpleDev" />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <a class="video-link" href="https://www.youtube.com/watch?v=B1NxV8Z0Fag">
+                <p class="title">React Full Course - Lesson 11:React 19, TypeScript With React</p>
+              </a>
+
+              <div class="account-name-container">
+                <a class="creator-profile-link" href=" https://www.youtube.com/@SuperSimpleDev">
+                  <p class="account-name">SuperSimpleDev</p>
+                </a>
+
+                <div class="verified-icon-box">
+                  <img
+                    class="verified-icon"
+                    src="/Icons/verified.png"
+                    alt="verified-icon"
+                  />
+                </div>
+              </div>
+
+              <p class="other-details">8 hours ago</p>
+              <div class="extra-tag">
+                  <div class="yuotube-featured">
+                    YuoTube-featured
+                  </div>
+                  <div class="member-only-tag">
+                    <img class="member-only-icon" src="/Icons/member-only-icon.png" alt="member-only-icon">
+                     Members only
+                  </div>
+              </div>
+            </div>
+
+            <div class="more-option-icon-box">
+              <img
+                class="more-option-icon"
+                src="/Icons/dots.png"
+                alt="more-option-icon"
+              />
+            </div>
+          </div>
+        </div>
+
+         <div class="video-cards">
+          <div class="thumbnail-box">
+            <a class="video-link" href="https://www.youtube.com/watch?v=sW9npZVpiMI">
+              <img class="thumbnail" src="/thumbnails/thumbnail4.jpg" alt="thumbnail" />
+            </a>
+            <div class="video-length">5:03</div>
+          </div>
+
+          <div class="details">
+            <div>
+              <a class="creator-profile-link" href="https://www.youtube.com/@jomakaze">
+                <img class="creator-profile" src="/Profile Pic/Joma Tech Profile Pic.jpg" alt="joma-tech-profile-pic" />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <a class="video-link" href="https://www.youtube.com/watch?v=sW9npZVpiMI">
+                <p class="title">why you NEED math for programming</p>
+              </a>
+
+              <div class="account-name-container">
+                <a class="creator-profile-link" href="https://www.youtube.com/@jomakaze">
+                  <p class="account-name">Joma Tech</p>
+                </a>
+
+                <div class="verified-icon-box">
+                  <img
+                    class="verified-icon"
+                    src="/Icons/verified.png"
+                    alt="verified-icon"
+                  />
+                </div>
+              </div>
+
+              <p class="other-details">9.4M views . 4 years ago</p>
+            </div>
+
+            <div class="more-option-icon-box">
+              <img
+                class="more-option-icon"
+                src="/Icons/dots.png"
+                alt="more-option-icon"
+              />
+            </div>
+          </div>
+        </div>
+
+         <div class="video-cards">
+          <div class="thumbnail-box">
+            <a class="video-link" href="https://www.youtube.com/watch?v=DzQDL3m-7Fc&t=2s">
+              <img class="thumbnail" src="/thumbnails/thumbnail5.jpg" alt="thumbnail" />
+            </a>
+            <div class="video-length">3:09</div>
+          </div>
+
+          <div class="details">
+            <div>
+              <a class="creator-profile-link" href="https://www.youtube.com/@DABLNetwork">
+                <img class="creator-profile" src="/Profile Pic/Dabl Profile Pic.jpg" alt="dabl-profile-pic" />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <a class="video-link" href="https://www.youtube.com/watch?v=DzQDL3m-7Fc&t=2s">
+                <p class="title">Undercover Boss Finds Out Employees Sends Half His Money Home</p>
+              </a>
+
+              <div class="account-name-container">
+                <a class="creator-profile-link" href="https://www.youtube.com/@DABLNetwork">
+                  <p class="account-name">Dabl</p>
+                </a>
+
+                <!--<div class="verified-icon-box">
+                  <img
+                    class="verified-icon"
+                    src="/Icons/verified.png"
+                    alt="verified-icon"
+                  />
+                </div>-->
+              </div>
+
+              <p class="other-details">8.6M views . 2 years ago</p>
+            </div>
+
+            <div class="more-option-icon-box">
+              <img
+                class="more-option-icon"
+                src="/Icons/dots.png"
+                alt="more-option-icon"
+              />
+            </div>
+          </div>
+        </div>
+
+       <div class="video-cards">
+          <div class="thumbnail-box">
+            <a class="video-link" href="https://www.youtube.com/watch?v=XBu54nfzxAQ">
+              <img class="thumbnail" src="/thumbnails/thumbnail6.jpg" alt="thumbnail" />
+            </a>
+            <div class="video-length">12:58</div>
+          </div>
+
+          <div class="details">
+            <div>
+              <a class="creator-profile-link" href="https://www.youtube.com/@SuperSimpleDev">
+                <img class="creator-profile" src="/Profile Pic/SuperSimpleDev Profile Pic.jpg" alt="SuperSimpleDev-profile-pic" />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <a class="video-link" href="https://www.youtube.com/watch?v=XBu54nfzxAQ">
+                <p class="title">Backend web development - a complete overview</p>
+              </a>
+
+              <div class="account-name-container">
+                <a class="creator-profile-link" href="https://www.youtube.com/@SuperSimpleDev">
+                  <p class="account-name">SuperSimpleDev</p>
+                </a>
+
+                <div class="verified-icon-box">
+                  <img
+                    class="verified-icon"
+                    src="/Icons/verified.png"
+                    alt="verified-icon"
+                  />
+                </div>
+              </div>
+
+              <p class="other-details">2.3M views . 3 years ago</p>
+            </div>
+
+            <div class="more-option-icon-box">
+              <img
+                class="more-option-icon"
+                src="/Icons/dots.png"
+                alt="more-option-icon"
+              />
+            </div>
+          </div>
+        </div>
+
+
+       <div class="video-cards">
+          <div class="thumbnail-box">
+            <a class="video-link" href="https://www.youtube.com/watch?v=6ugeNL3cyfo">
+              <img class="thumbnail" src="/thumbnails/thumbnail7.jpg" alt="thumbnail" />
+            </a>
+            <div class="video-length">2:59</div>
+          </div>
+
+          <div class="details">
+            <div>
+              <a class="creator-profile-link" href="https://www.youtube.com/@pinkpocketTV">
+                <img class="creator-profile" src="/Profile Pic/pinkpocketTV Profile Pic.jpg" alt="pinkpocketTV-profile-pic" />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <a class="video-link" href="https://www.youtube.com/watch?v=6ugeNL3cyfo">
+                <p class="title">UE5.7 is HERE! Everything New In Unreal Engine 5.7</p>
+              </a>
+
+              <div class="account-name-container">
+                <a class="creator-profile-link" href="https://www.youtube.com/@pinkpocketTV">
+                  <p class="account-name">pinkpocketTV</p>
+                </a>
+
+                <!--<div class="verified-icon-box">
+                  <img
+                    class="verified-icon"
+                    src="/Icons/verified.png"
+                    alt="verified-icon"
+                  />
+                </div>-->
+              </div>
+
+              <p class="other-details">378 views . 3 hours ago</p>
+            </div>
+
+            <div class="more-option-icon-box">
+              <img
+                class="more-option-icon"
+                src="/Icons/dots.png"
+                alt="more-option-icon"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="video-cards">
+          <div class="thumbnail-box">
+            <a class="video-link" href="https://www.youtube.com/watch?v=WyjNiZI-588">
+              <img class="thumbnail" src="/thumbnails/thumbnail8.jpg" alt="thumbnail" />
+            </a>
+            <div class="video-length">11:26</div>
+          </div>
+
+          <div class="details">
+            <div>
+              <a class="creator-profile-link" href="https://www.youtube.com/@Shivansh.connect">
+                <img class="creator-profile" src="/Profile Pic/Shivansh Profile Pic.jpg" alt="Shivansh-profile-pic" />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <a class="video-link" href="https://www.youtube.com/watch?v=WyjNiZI-588">
+                <p class="title">This Is What Freelancing In Collage Really Looks Like</p>
+              </a>
+
+              <div class="account-name-container">
+                <a class="creator-profile-link" href="https://www.youtube.com/@Shivansh.connect">
+                  <p class="account-name">Shivansh</p>
+                </a>
+
+                <!--<div class="verified-icon-box">
+                  <img
+                    class="verified-icon"
+                    src="/Icons/verified.png"
+                    alt="verified-icon"
+                  />
+                </div>-->
+              </div>
+
+              <p class="other-details">53k views . 2 weeks ago</p>
+            </div>
+
+            <div class="more-option-icon-box">
+              <img
+                class="more-option-icon"
+                src="/Icons/dots.png"
+                alt="more-option-icon"
+              />
+            </div>
+          </div>
+        </div>
+
+
+        <div class="video-cards">
+          <div class="thumbnail-box">
+            <a class="video-link" href="https://www.youtube.com/watch?v=7pK_mjC_Ei0">
+              <img class="thumbnail" src="/thumbnails/thumbnail9.jpg" alt="thumbnail" />
+            </a>
+            <div class="video-length">5:00</div>
+          </div>
+
+          <div class="details">
+            <div>
+              <a class="creator-profile-link" href="https://www.youtube.com/@wpdev.">
+                <img class="creator-profile" src="/Profile Pic/WPDev Profile Pic.jpg" alt="WPDev-profile-pic" />
+              </a>
+            </div>
+
+            <div class="video-info">
+              <a class="video-link" href="https://www.youtube.com/watch?v=7pK_mjC_Ei0">
+                <p class="title">Steal My Web Design Hacks (please)</p>
+              </a>
+
+              <div class="account-name-container">
+                <a class="creator-profile-link" href="https://www.youtube.com/@wpdev.">
+                  <p class="account-name">WPDev</p>
+                </a>
+
+                <!--<div class="verified-icon-box">
+                  <img
+                    class="verified-icon"
+                    src="/Icons/verified.png"
+                    alt="verified-icon"
+                  />
+                </div>-->
+              </div>
+
+              <p class="other-details">63k views . 2 months ago</p>
+            </div>
+
+            <div class="more-option-icon-box">
+              <img
+                class="more-option-icon"
+                src="/Icons/dots.png"
+                alt="more-option-icon"
+              />
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </body>
+</html>

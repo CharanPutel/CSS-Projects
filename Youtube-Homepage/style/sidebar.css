@@ -1,0 +1,25 @@
+.sidebar{
+  width: 72px;
+  position: fixed;
+  top: 61px;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(15, 15, 15);
+ z-index: 200;
+}
+
+.icon-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0 16px 0;
+}
+.sidebar-icons{
+  height: 21px;
+  margin-bottom: 7px;
+}
+
+.sidebar-icon-name{
+  font-size: 10px;
+}

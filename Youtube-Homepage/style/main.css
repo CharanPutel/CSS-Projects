@@ -1,0 +1,142 @@
+.video-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 35px;
+  width: 100%; 
+}
+
+.video-cards {
+  width: 100%;
+  min-width: 0; 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.thumbnail-box {
+  width: 100%;
+  min-width: 0;
+  position: relative;
+}
+
+.video-length{
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  background-color: rgba(12, 12, 12, 0.623);
+  padding: 3px 5px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+  min-width: 0;
+}
+.creator-profile{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.details{
+  min-width: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40px 1fr 18px;
+  margin-top: 10px;
+}
+
+.video-info{
+  min-width: 0;
+  width: 100%;
+  line-height: 24px;
+}
+.title{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 24px 0 0 ;
+}
+
+
+.more-option-icon{
+  height: 18px;
+  margin-top: 5px;
+}
+.account-name-container{
+  display: flex ;
+  align-items: center;
+}
+.account-name ,
+.other-details{
+  font-size: 15px;
+  color: rgb(197, 197, 197);
+  margin-right: 4px;
+}
+
+.other-details{
+  margin-bottom: 5px;
+}
+
+.verified-icon-box{
+  padding-top: 5px;
+}
+.verified-icon{
+  width: 15px;
+}
+.extra-tag{
+  display: flex;
+  align-items: center;
+}
+
+
+.yuotube-featured {
+  color: rgb(209, 207, 207);
+  background-color: rgb(56, 56, 56);
+  font-size: 12px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-right: 5px;
+  line-height: 1;
+}
+
+.member-only-tag{
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+   padding: 2px 4px;
+  background-color: rgb(41, 41, 41);
+  border-radius: 3px;
+  color: #29af32;
+  line-height: 1;
+}
+.member-only-icon{
+  width: 14px;
+  object-fit: contain;
+  margin-right: 5px;
+  
+}
+
+
+
+
+@media (max-width: 600px) {
+  .video-cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1299px) {
+  .video-cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1300px) {
+  .video-cards-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
